@@ -1,0 +1,1650 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '-D',
+1 verbose cli   'webpack',
+1 verbose cli   'webpack-cli' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData webpack
+8 silly fetchPackageMetaData webpack-cli
+9 silly fetchNamedPackageData webpack
+10 silly mapToRegistry name webpack
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+13 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/webpack
+14 silly fetchNamedPackageData webpack-cli
+15 silly mapToRegistry name webpack-cli
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+18 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/webpack-cli
+19 verbose request uri http://nexus.aic.serpro/repository/npm-group/webpack-cli
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 13:22:15
+22 verbose request id dabc645b018e2aee
+23 http request GET http://nexus.aic.serpro/repository/npm-group/webpack-cli
+24 verbose request uri http://nexus.aic.serpro/repository/npm-group/webpack
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 13:22:16
+27 verbose lastModified Tue, 24 May 2022 09:34:09 GMT
+28 http request GET http://nexus.aic.serpro/repository/npm-group/webpack
+29 http 304 http://nexus.aic.serpro/repository/npm-group/webpack
+30 verbose headers { date: 'Thu, 26 May 2022 16:18:58 GMT',
+30 verbose headers   server: 'Nexus/3.33.1-01 (OSS)',
+30 verbose headers   'x-content-type-options': 'nosniff',
+30 verbose headers   'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+30 verbose headers   'x-xss-protection': '1; mode=block',
+30 verbose headers   connection: 'close' }
+31 silly get cb [ 304,
+31 silly get   { date: 'Thu, 26 May 2022 16:18:58 GMT',
+31 silly get     server: 'Nexus/3.33.1-01 (OSS)',
+31 silly get     'x-content-type-options': 'nosniff',
+31 silly get     'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+31 silly get     'x-xss-protection': '1; mode=block',
+31 silly get     connection: 'close' } ]
+32 verbose lastModified http://nexus.aic.serpro/repository/npm-group/webpack from cache
+33 verbose get saving webpack to /home/76327698468/.npm/nexus.aic.serpro/repository/npm-group/webpack/.cache.json
+34 http 200 http://nexus.aic.serpro/repository/npm-group/webpack-cli
+35 verbose headers { date: 'Thu, 26 May 2022 16:18:58 GMT',
+35 verbose headers   server: 'Nexus/3.33.1-01 (OSS)',
+35 verbose headers   'x-content-type-options': 'nosniff',
+35 verbose headers   'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+35 verbose headers   'x-xss-protection': '1; mode=block',
+35 verbose headers   'last-modified': 'Tue, 24 May 2022 10:25:47 GMT',
+35 verbose headers   'content-type': 'application/json',
+35 verbose headers   connection: 'close',
+35 verbose headers   'transfer-encoding': 'chunked' }
+36 silly get cb [ 200,
+36 silly get   { date: 'Thu, 26 May 2022 16:18:58 GMT',
+36 silly get     server: 'Nexus/3.33.1-01 (OSS)',
+36 silly get     'x-content-type-options': 'nosniff',
+36 silly get     'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+36 silly get     'x-xss-protection': '1; mode=block',
+36 silly get     'last-modified': 'Tue, 24 May 2022 10:25:47 GMT',
+36 silly get     'content-type': 'application/json',
+36 silly get     connection: 'close',
+36 silly get     'transfer-encoding': 'chunked' } ]
+37 verbose get saving webpack-cli to /home/76327698468/.npm/nexus.aic.serpro/repository/npm-group/webpack-cli/.cache.json
+38 silly install normalizeTree
+39 silly loadCurrentTree Finishing
+40 silly loadIdealTree Starting
+41 silly install loadIdealTree
+42 silly cloneCurrentTree Starting
+43 silly install cloneCurrentTreeToIdealTree
+44 silly cloneCurrentTree Finishing
+45 silly loadShrinkwrap Starting
+46 silly install loadShrinkwrap
+47 silly loadShrinkwrap Finishing
+48 silly loadAllDepsIntoIdealTree Starting
+49 silly install loadAllDepsIntoIdealTree
+50 silly resolveWithNewModule webpack@5.72.1 checking installable status
+51 silly cache add args [ 'webpack', null ]
+52 verbose cache add spec webpack
+53 silly resolveWithNewModule webpack-cli@4.9.2 checking installable status
+54 silly cache add args [ 'webpack-cli', null ]
+55 verbose cache add spec webpack-cli
+56 silly cache add parsed spec Result {
+56 silly cache add   raw: 'webpack',
+56 silly cache add   scope: null,
+56 silly cache add   name: 'webpack',
+56 silly cache add   rawSpec: '',
+56 silly cache add   spec: 'latest',
+56 silly cache add   type: 'tag' }
+57 silly addNamed webpack@latest
+58 verbose addNamed "latest" is being treated as a dist-tag for webpack
+59 info addNameTag [ 'webpack', 'latest' ]
+60 silly mapToRegistry name webpack
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+63 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/webpack
+64 verbose addNameTag registry:http://nexus.aic.serpro/repository/npm-group/webpack not in flight; fetching
+65 silly cache add parsed spec Result {
+65 silly cache add   raw: 'webpack-cli',
+65 silly cache add   scope: null,
+65 silly cache add   name: 'webpack-cli',
+65 silly cache add   rawSpec: '',
+65 silly cache add   spec: 'latest',
+65 silly cache add   type: 'tag' }
+66 silly addNamed webpack-cli@latest
+67 verbose addNamed "latest" is being treated as a dist-tag for webpack-cli
+68 info addNameTag [ 'webpack-cli', 'latest' ]
+69 silly mapToRegistry name webpack-cli
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+72 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/webpack-cli
+73 verbose addNameTag registry:http://nexus.aic.serpro/repository/npm-group/webpack-cli not in flight; fetching
+74 verbose get http://nexus.aic.serpro/repository/npm-group/webpack-cli not expired, no request
+75 silly addNameTag next cb for webpack-cli with tag latest
+76 silly addNamed webpack-cli@4.9.2
+77 verbose addNamed "4.9.2" is a plain semver version for webpack-cli
+78 silly mapToRegistry name webpack-cli
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+81 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/webpack-cli
+82 verbose addRemoteTarball https://nexus.aic.serpro.gov.br/repository/npm-group/webpack-cli/-/webpack-cli-4.9.2.tgz not in flight; adding
+83 verbose addRemoteTarball [ 'https://nexus.aic.serpro.gov.br/repository/npm-group/webpack-cli/-/webpack-cli-4.9.2.tgz',
+83 verbose addRemoteTarball   '77c1adaea020c3f9e2db8aad8ea78d235c83659d' ]
+84 verbose get http://nexus.aic.serpro/repository/npm-group/webpack not expired, no request
+85 silly addNameTag next cb for webpack with tag latest
+86 silly addNamed webpack@5.72.1
+87 verbose addNamed "5.72.1" is a plain semver version for webpack
+88 info retry fetch attempt 1 at 13:22:17
+89 info attempt registry request try #1 at 13:22:17
+90 http fetch GET https://nexus.aic.serpro.gov.br/repository/npm-group/webpack-cli/-/webpack-cli-4.9.2.tgz
+91 silly cache afterAdd webpack@5.72.1
+92 verbose afterAdd /home/76327698468/.npm/webpack/5.72.1/package/package.json not in flight; writing
+93 verbose afterAdd /home/76327698468/.npm/webpack/5.72.1/package/package.json written
+94 http fetch 200 https://nexus.aic.serpro.gov.br/repository/npm-group/webpack-cli/-/webpack-cli-4.9.2.tgz
+95 silly fetchAndShaCheck shasum 77c1adaea020c3f9e2db8aad8ea78d235c83659d
+96 verbose addTmpTarball /tmp/npm-13536-33fb7cef/nexus.aic.serpro.gov.br/repository/npm-group/webpack-cli/-/webpack-cli-4.9.2.tgz not in flight; adding
+97 verbose addTmpTarball already have metadata; skipping unpack for webpack-cli@4.9.2
+98 silly cache afterAdd webpack-cli@4.9.2
+99 verbose afterAdd /home/76327698468/.npm/webpack-cli/4.9.2/package/package.json not in flight; writing
+100 verbose afterAdd /home/76327698468/.npm/webpack-cli/4.9.2/package/package.json written
+101 silly fetchNamedPackageData @types/eslint-scope
+102 silly mapToRegistry name @types/eslint-scope
+103 silly mapToRegistry scope (from package name) @types
+104 verbose mapToRegistry no registry URL found in name for scope @types
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+107 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/@types%2feslint-scope
+108 silly fetchNamedPackageData @types/estree
+109 silly mapToRegistry name @types/estree
+110 silly mapToRegistry scope (from package name) @types
+111 verbose mapToRegistry no registry URL found in name for scope @types
+112 silly mapToRegistry using default registry
+113 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+114 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/@types%2festree
+115 silly fetchNamedPackageData @webassemblyjs/ast
+116 silly mapToRegistry name @webassemblyjs/ast
+117 silly mapToRegistry scope (from package name) @webassemblyjs
+118 verbose mapToRegistry no registry URL found in name for scope @webassemblyjs
+119 silly mapToRegistry using default registry
+120 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+121 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/@webassemblyjs%2fast
+122 silly fetchNamedPackageData @webassemblyjs/wasm-edit
+123 silly mapToRegistry name @webassemblyjs/wasm-edit
+124 silly mapToRegistry scope (from package name) @webassemblyjs
+125 verbose mapToRegistry no registry URL found in name for scope @webassemblyjs
+126 silly mapToRegistry using default registry
+127 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+128 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/@webassemblyjs%2fwasm-edit
+129 silly fetchNamedPackageData @webassemblyjs/wasm-parser
+130 silly mapToRegistry name @webassemblyjs/wasm-parser
+131 silly mapToRegistry scope (from package name) @webassemblyjs
+132 verbose mapToRegistry no registry URL found in name for scope @webassemblyjs
+133 silly mapToRegistry using default registry
+134 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+135 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/@webassemblyjs%2fwasm-parser
+136 silly fetchNamedPackageData acorn
+137 silly mapToRegistry name acorn
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+140 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/acorn
+141 silly fetchNamedPackageData acorn-import-assertions
+142 silly mapToRegistry name acorn-import-assertions
+143 silly mapToRegistry using default registry
+144 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+145 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/acorn-import-assertions
+146 silly fetchNamedPackageData browserslist
+147 silly mapToRegistry name browserslist
+148 silly mapToRegistry using default registry
+149 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+150 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/browserslist
+151 silly fetchNamedPackageData chrome-trace-event
+152 silly mapToRegistry name chrome-trace-event
+153 silly mapToRegistry using default registry
+154 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+155 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/chrome-trace-event
+156 silly fetchNamedPackageData enhanced-resolve
+157 silly mapToRegistry name enhanced-resolve
+158 silly mapToRegistry using default registry
+159 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+160 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/enhanced-resolve
+161 silly fetchNamedPackageData es-module-lexer
+162 silly mapToRegistry name es-module-lexer
+163 silly mapToRegistry using default registry
+164 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+165 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/es-module-lexer
+166 silly fetchNamedPackageData eslint-scope
+167 silly mapToRegistry name eslint-scope
+168 silly mapToRegistry using default registry
+169 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+170 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/eslint-scope
+171 silly fetchNamedPackageData events
+172 silly mapToRegistry name events
+173 silly mapToRegistry using default registry
+174 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+175 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/events
+176 silly fetchNamedPackageData glob-to-regexp
+177 silly mapToRegistry name glob-to-regexp
+178 silly mapToRegistry using default registry
+179 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+180 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/glob-to-regexp
+181 silly fetchNamedPackageData graceful-fs
+182 silly mapToRegistry name graceful-fs
+183 silly mapToRegistry using default registry
+184 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+185 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/graceful-fs
+186 silly fetchNamedPackageData json-parse-even-better-errors
+187 silly mapToRegistry name json-parse-even-better-errors
+188 silly mapToRegistry using default registry
+189 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+190 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/json-parse-even-better-errors
+191 silly fetchNamedPackageData loader-runner
+192 silly mapToRegistry name loader-runner
+193 silly mapToRegistry using default registry
+194 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+195 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/loader-runner
+196 silly fetchNamedPackageData mime-types
+197 silly mapToRegistry name mime-types
+198 silly mapToRegistry using default registry
+199 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+200 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/mime-types
+201 silly fetchNamedPackageData neo-async
+202 silly mapToRegistry name neo-async
+203 silly mapToRegistry using default registry
+204 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+205 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/neo-async
+206 silly fetchNamedPackageData schema-utils
+207 silly mapToRegistry name schema-utils
+208 silly mapToRegistry using default registry
+209 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+210 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/schema-utils
+211 silly fetchNamedPackageData tapable
+212 silly mapToRegistry name tapable
+213 silly mapToRegistry using default registry
+214 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+215 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/tapable
+216 silly fetchNamedPackageData terser-webpack-plugin
+217 silly mapToRegistry name terser-webpack-plugin
+218 silly mapToRegistry using default registry
+219 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+220 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/terser-webpack-plugin
+221 silly fetchNamedPackageData watchpack
+222 silly mapToRegistry name watchpack
+223 silly mapToRegistry using default registry
+224 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+225 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/watchpack
+226 silly fetchNamedPackageData webpack-sources
+227 silly mapToRegistry name webpack-sources
+228 silly mapToRegistry using default registry
+229 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+230 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/webpack-sources
+231 verbose request uri http://nexus.aic.serpro/repository/npm-group/@types%2feslint-scope
+232 verbose request no auth needed
+233 info attempt registry request try #1 at 13:22:18
+234 http request GET http://nexus.aic.serpro/repository/npm-group/@types%2feslint-scope
+235 verbose request uri http://nexus.aic.serpro/repository/npm-group/@types%2festree
+236 verbose request no auth needed
+237 info attempt registry request try #1 at 13:22:18
+238 http request GET http://nexus.aic.serpro/repository/npm-group/@types%2festree
+239 verbose request uri http://nexus.aic.serpro/repository/npm-group/acorn-import-assertions
+240 verbose request no auth needed
+241 info attempt registry request try #1 at 13:22:18
+242 http request GET http://nexus.aic.serpro/repository/npm-group/acorn-import-assertions
+243 verbose request uri http://nexus.aic.serpro/repository/npm-group/es-module-lexer
+244 verbose request no auth needed
+245 info attempt registry request try #1 at 13:22:18
+246 http request GET http://nexus.aic.serpro/repository/npm-group/es-module-lexer
+247 verbose request uri http://nexus.aic.serpro/repository/npm-group/glob-to-regexp
+248 verbose request no auth needed
+249 info attempt registry request try #1 at 13:22:18
+250 http request GET http://nexus.aic.serpro/repository/npm-group/glob-to-regexp
+251 verbose request uri http://nexus.aic.serpro/repository/npm-group/json-parse-even-better-errors
+252 verbose request no auth needed
+253 info attempt registry request try #1 at 13:22:18
+254 http request GET http://nexus.aic.serpro/repository/npm-group/json-parse-even-better-errors
+255 verbose request uri http://nexus.aic.serpro/repository/npm-group/browserslist
+256 verbose request no auth needed
+257 info attempt registry request try #1 at 13:22:18
+258 verbose lastModified Mon, 16 May 2022 09:33:38 GMT
+259 http request GET http://nexus.aic.serpro/repository/npm-group/browserslist
+260 verbose request uri http://nexus.aic.serpro/repository/npm-group/chrome-trace-event
+261 verbose request no auth needed
+262 info attempt registry request try #1 at 13:22:18
+263 http request GET http://nexus.aic.serpro/repository/npm-group/chrome-trace-event
+264 verbose request uri http://nexus.aic.serpro/repository/npm-group/@webassemblyjs%2fwasm-parser
+265 verbose request no auth needed
+266 info attempt registry request try #1 at 13:22:18
+267 http request GET http://nexus.aic.serpro/repository/npm-group/@webassemblyjs%2fwasm-parser
+268 verbose request uri http://nexus.aic.serpro/repository/npm-group/eslint-scope
+269 verbose request no auth needed
+270 info attempt registry request try #1 at 13:22:18
+271 http request GET http://nexus.aic.serpro/repository/npm-group/eslint-scope
+272 verbose request uri http://nexus.aic.serpro/repository/npm-group/loader-runner
+273 verbose request no auth needed
+274 info attempt registry request try #1 at 13:22:18
+275 http request GET http://nexus.aic.serpro/repository/npm-group/loader-runner
+276 verbose request uri http://nexus.aic.serpro/repository/npm-group/events
+277 verbose request no auth needed
+278 info attempt registry request try #1 at 13:22:18
+279 http request GET http://nexus.aic.serpro/repository/npm-group/events
+280 verbose request uri http://nexus.aic.serpro/repository/npm-group/@webassemblyjs%2fast
+281 verbose request no auth needed
+282 info attempt registry request try #1 at 13:22:18
+283 http request GET http://nexus.aic.serpro/repository/npm-group/@webassemblyjs%2fast
+284 verbose request uri http://nexus.aic.serpro/repository/npm-group/@webassemblyjs%2fwasm-edit
+285 verbose request no auth needed
+286 info attempt registry request try #1 at 13:22:18
+287 http request GET http://nexus.aic.serpro/repository/npm-group/@webassemblyjs%2fwasm-edit
+288 verbose request uri http://nexus.aic.serpro/repository/npm-group/schema-utils
+289 verbose request no auth needed
+290 info attempt registry request try #1 at 13:22:18
+291 http request GET http://nexus.aic.serpro/repository/npm-group/schema-utils
+292 verbose request uri http://nexus.aic.serpro/repository/npm-group/neo-async
+293 verbose request no auth needed
+294 info attempt registry request try #1 at 13:22:18
+295 http request GET http://nexus.aic.serpro/repository/npm-group/neo-async
+296 verbose request uri http://nexus.aic.serpro/repository/npm-group/tapable
+297 verbose request no auth needed
+298 info attempt registry request try #1 at 13:22:18
+299 http request GET http://nexus.aic.serpro/repository/npm-group/tapable
+300 verbose request uri http://nexus.aic.serpro/repository/npm-group/graceful-fs
+301 verbose request no auth needed
+302 info attempt registry request try #1 at 13:22:18
+303 verbose lastModified Wed, 04 May 2022 02:00:48 GMT
+304 http request GET http://nexus.aic.serpro/repository/npm-group/graceful-fs
+305 verbose request uri http://nexus.aic.serpro/repository/npm-group/terser-webpack-plugin
+306 verbose request no auth needed
+307 info attempt registry request try #1 at 13:22:18
+308 verbose lastModified Thu, 19 May 2022 21:35:36 GMT
+309 http request GET http://nexus.aic.serpro/repository/npm-group/terser-webpack-plugin
+310 verbose request uri http://nexus.aic.serpro/repository/npm-group/acorn
+311 verbose request no auth needed
+312 info attempt registry request try #1 at 13:22:18
+313 http request GET http://nexus.aic.serpro/repository/npm-group/acorn
+314 verbose request uri http://nexus.aic.serpro/repository/npm-group/mime-types
+315 verbose request no auth needed
+316 info attempt registry request try #1 at 13:22:18
+317 http request GET http://nexus.aic.serpro/repository/npm-group/mime-types
+318 verbose request uri http://nexus.aic.serpro/repository/npm-group/webpack-sources
+319 verbose request no auth needed
+320 info attempt registry request try #1 at 13:22:18
+321 http request GET http://nexus.aic.serpro/repository/npm-group/webpack-sources
+322 verbose request uri http://nexus.aic.serpro/repository/npm-group/enhanced-resolve
+323 verbose request no auth needed
+324 info attempt registry request try #1 at 13:22:18
+325 http request GET http://nexus.aic.serpro/repository/npm-group/enhanced-resolve
+326 verbose request uri http://nexus.aic.serpro/repository/npm-group/watchpack
+327 verbose request no auth needed
+328 info attempt registry request try #1 at 13:22:18
+329 http request GET http://nexus.aic.serpro/repository/npm-group/watchpack
+330 http 500 http://nexus.aic.serpro/repository/npm-group/@types%2feslint-scope
+331 verbose bad json <!DOCTYPE html>
+331 verbose bad json <html lang="en">
+331 verbose bad json <head>
+331 verbose bad json   <title>500 - Nexus Repository Manager</title>
+331 verbose bad json   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+331 verbose bad json
+331 verbose bad json
+331 verbose bad json   <!--[if lt IE 9]>
+331 verbose bad json   <script>(new Image).src="https://nexus.aic.serpro.gov.br/favicon.ico?3.33.1-01"</script>
+331 verbose bad json   <![endif]-->
+331 verbose bad json   <link rel="icon" type="image/png" href="https://nexus.aic.serpro.gov.br/favicon-32x32.png?3.33.1-01" sizes="32x32">
+331 verbose bad json   <link rel="mask-icon" href="https://nexus.aic.serpro.gov.br/safari-pinned-tab.svg?3.33.1-01" color="#5bbad5">
+331 verbose bad json   <link rel="icon" type="image/png" href="https://nexus.aic.serpro.gov.br/favicon-16x16.png?3.33.1-01" sizes="16x16">
+331 verbose bad json   <link rel="shortcut icon" href="https://nexus.aic.serpro.gov.br/favicon.ico?3.33.1-01">
+331 verbose bad json   <meta name="msapplication-TileImage" content="https://nexus.aic.serpro.gov.br/mstile-144x144.png?3.33.1-01">
+331 verbose bad json   <meta name="msapplication-TileColor" content="#00a300">
+331 verbose bad json
+331 verbose bad json   <link rel="stylesheet" type="text/css" href="https://nexus.aic.serpro.gov.br/static/css/nexus-content.css?3.33.1-01"/>
+331 verbose bad json </head>
+331 verbose bad json <body>
+331 verbose bad json <div class="nexus-header">
+331 verbose bad json   <a href="https://nexus.aic.serpro.gov.br">
+331 verbose bad json     <div class="product-logo">
+331 verbose bad json       <img src="https://nexus.aic.serpro.gov.br/static/rapture/resources/icons/x32/nexus-white.png?3.33.1-01" alt="Product logo"/>
+331 verbose bad json     </div>
+331 verbose bad json     <div class="product-id">
+331 verbose bad json       <div class="product-id__line-1">
+331 verbose bad json         <span class="product-name">Nexus Repository Manager</span>
+331 verbose bad json       </div>
+331 verbose bad json       <div class="product-id__line-2">
+331 verbose bad json         <span class="product-spec">OSS 3.33.1-01</span>
+331 verbose bad json       </div>
+331 verbose bad json     </div>
+331 verbose bad json   </a>
+331 verbose bad json </div>
+331 verbose bad json
+331 verbose bad json <div class="nexus-body">
+331 verbose bad json   <div class="content-header">
+331 verbose bad json     <img src="https://nexus.aic.serpro.gov.br/static/rapture/resources/icons/x32/exclamation.png?3.33.1-01" alt="Exclamation point" aria-role="presentation"/>
+331 verbose bad json     <span class="title">Error 500</span>
+331 verbose bad json     <span class="description">Internal Server Error</span>
+331 verbose bad json   </div>
+331 verbose bad json   <div class="content-body">
+331 verbose bad json     <div class="content-section">
+331 verbose bad json       Server Error
+331 verbose bad json     </div>
+331 verbose bad json   </div>
+331 verbose bad json </div>
+331 verbose bad json </body>
+331 verbose bad json </html>
+332 error registry error parsing json
+333 verbose headers { date: 'Thu, 26 May 2022 16:19:00 GMT',
+333 verbose headers   server: 'Nexus/3.33.1-01 (OSS)',
+333 verbose headers   'x-content-type-options': 'nosniff',
+333 verbose headers   'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+333 verbose headers   'x-xss-protection': '1; mode=block',
+333 verbose headers   'x-frame-options': 'DENY',
+333 verbose headers   'cache-control': 'no-cache, no-store, max-age=0, must-revalidate, post-check=0, pre-check=0',
+333 verbose headers   pragma: 'no-cache',
+333 verbose headers   expires: '0',
+333 verbose headers   'content-type': 'text/html; charset=UTF-8',
+333 verbose headers   'content-length': '2009',
+333 verbose headers   connection: 'close' }
+334 info retry will retry, error on last attempt: SyntaxError: Unexpected token < in JSON at position 1
+334 info retry
+334 info retry <!DOCTYPE html>
+334 info retry <html lang="en">
+334 info retry <head>
+334 info retry   <title>500 - Nexus Repository Manager</title>
+334 info retry   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+334 info retry
+334 info retry
+334 info retry   <!--[if lt IE 9]>
+334 info retry   <script>(new Image).src="https://nexus.aic.serpro.gov.br/favicon.ico?3.33.1-01"</script>
+334 info retry   <![endif]-->
+334 info retry   <link rel="icon" type="image/png" href="https://nexus.aic.serpro.gov.br/favicon-32x32.png?3.33.1-01" sizes="32x32">
+334 info retry   <link rel="mask-icon" href="https://nexus.aic.serpro.gov.br/safari-pinned-tab.svg?3.33.1-01" color="#5bbad5">
+334 info retry   <link rel="icon" type="image/png" href="https://nexus.aic.serpro.gov.br/favicon-16x16.png?3.33.1-01" sizes="16x16">
+334 info retry   <link rel="shortcut icon" href="https://nexus.aic.serpro.gov.br/favicon.ico?3.33.1-01">
+334 info retry   <meta name="msapplication-TileImage" content="https://nexus.aic.serpro.gov.br/mstile-144x144.png?3.33.1-01">
+334 info retry   <meta name="msapplication-TileColor" content="#00a300">
+334 info retry
+334 info retry   <link rel="stylesheet" type="text/css" href="https://nexus.aic.serpro.gov.br/static/css/nexus-content.css?3.33.1-01"/>
+334 info retry </head>
+334 info retry <body>
+334 info retry <div class="nexus-header">
+334 info retry   <a href="https://nexus.aic.serpro.gov.br">
+334 info retry     <div class="product-logo">
+334 info retry       <img src="https://nexus.aic.serpro.gov.br/static/rapture/resources/icons/x32/nexus-white.png?3.33.1-01" alt="Product logo"/>
+334 info retry     </div>
+334 info retry     <div class="product-id">
+334 info retry       <div class="product-id__line-1">
+334 info retry         <span class="product-name">Nexus Repository Manager</span>
+334 info retry       </div>
+334 info retry       <div class="product-id__line-2">
+334 info retry         <span class="product-spec">OSS 3.33.1-01</span>
+334 info retry       </div>
+334 info retry     </div>
+334 info retry   </a>
+334 info retry </div>
+334 info retry
+334 info retry <div class="nexus-body">
+334 info retry   <div class="content-header">
+334 info retry     <img src="https://nexus.aic.serpro.gov.br/static/rapture/resources/icons/x32/exclamation.png?3.33.1-01" alt="Exclamation point" aria-role="presentation"/>
+334 info retry     <span class="title">Error 500</span>
+334 info retry     <span class="description">Internal Server Error</span>
+334 info retry   </div>
+334 info retry   <div class="content-body">
+334 info retry     <div class="content-section">
+334 info retry       Server Error
+334 info retry     </div>
+334 info retry   </div>
+334 info retry </div>
+334 info retry </body>
+334 info retry </html>
+335 http 500 http://nexus.aic.serpro/repository/npm-group/@types%2festree
+336 verbose bad json <!DOCTYPE html>
+336 verbose bad json <html lang="en">
+336 verbose bad json <head>
+336 verbose bad json   <title>500 - Nexus Repository Manager</title>
+336 verbose bad json   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+336 verbose bad json
+336 verbose bad json
+336 verbose bad json   <!--[if lt IE 9]>
+336 verbose bad json   <script>(new Image).src="https://nexus.aic.serpro.gov.br/favicon.ico?3.33.1-01"</script>
+336 verbose bad json   <![endif]-->
+336 verbose bad json   <link rel="icon" type="image/png" href="https://nexus.aic.serpro.gov.br/favicon-32x32.png?3.33.1-01" sizes="32x32">
+336 verbose bad json   <link rel="mask-icon" href="https://nexus.aic.serpro.gov.br/safari-pinned-tab.svg?3.33.1-01" color="#5bbad5">
+336 verbose bad json   <link rel="icon" type="image/png" href="https://nexus.aic.serpro.gov.br/favicon-16x16.png?3.33.1-01" sizes="16x16">
+336 verbose bad json   <link rel="shortcut icon" href="https://nexus.aic.serpro.gov.br/favicon.ico?3.33.1-01">
+336 verbose bad json   <meta name="msapplication-TileImage" content="https://nexus.aic.serpro.gov.br/mstile-144x144.png?3.33.1-01">
+336 verbose bad json   <meta name="msapplication-TileColor" content="#00a300">
+336 verbose bad json
+336 verbose bad json   <link rel="stylesheet" type="text/css" href="https://nexus.aic.serpro.gov.br/static/css/nexus-content.css?3.33.1-01"/>
+336 verbose bad json </head>
+336 verbose bad json <body>
+336 verbose bad json <div class="nexus-header">
+336 verbose bad json   <a href="https://nexus.aic.serpro.gov.br">
+336 verbose bad json     <div class="product-logo">
+336 verbose bad json       <img src="https://nexus.aic.serpro.gov.br/static/rapture/resources/icons/x32/nexus-white.png?3.33.1-01" alt="Product logo"/>
+336 verbose bad json     </div>
+336 verbose bad json     <div class="product-id">
+336 verbose bad json       <div class="product-id__line-1">
+336 verbose bad json         <span class="product-name">Nexus Repository Manager</span>
+336 verbose bad json       </div>
+336 verbose bad json       <div class="product-id__line-2">
+336 verbose bad json         <span class="product-spec">OSS 3.33.1-01</span>
+336 verbose bad json       </div>
+336 verbose bad json     </div>
+336 verbose bad json   </a>
+336 verbose bad json </div>
+336 verbose bad json
+336 verbose bad json <div class="nexus-body">
+336 verbose bad json   <div class="content-header">
+336 verbose bad json     <img src="https://nexus.aic.serpro.gov.br/static/rapture/resources/icons/x32/exclamation.png?3.33.1-01" alt="Exclamation point" aria-role="presentation"/>
+336 verbose bad json     <span class="title">Error 500</span>
+336 verbose bad json     <span class="description">Internal Server Error</span>
+336 verbose bad json   </div>
+336 verbose bad json   <div class="content-body">
+336 verbose bad json     <div class="content-section">
+336 verbose bad json       Server Error
+336 verbose bad json     </div>
+336 verbose bad json   </div>
+336 verbose bad json </div>
+336 verbose bad json </body>
+336 verbose bad json </html>
+337 error registry error parsing json
+338 verbose headers { date: 'Thu, 26 May 2022 16:19:00 GMT',
+338 verbose headers   server: 'Nexus/3.33.1-01 (OSS)',
+338 verbose headers   'x-content-type-options': 'nosniff',
+338 verbose headers   'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+338 verbose headers   'x-xss-protection': '1; mode=block',
+338 verbose headers   'x-frame-options': 'DENY',
+338 verbose headers   'cache-control': 'no-cache, no-store, max-age=0, must-revalidate, post-check=0, pre-check=0',
+338 verbose headers   pragma: 'no-cache',
+338 verbose headers   expires: '0',
+338 verbose headers   'content-type': 'text/html; charset=UTF-8',
+338 verbose headers   'content-length': '2009',
+338 verbose headers   connection: 'close' }
+339 info retry will retry, error on last attempt: SyntaxError: Unexpected token < in JSON at position 1
+339 info retry
+339 info retry <!DOCTYPE html>
+339 info retry <html lang="en">
+339 info retry <head>
+339 info retry   <title>500 - Nexus Repository Manager</title>
+339 info retry   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+339 info retry
+339 info retry
+339 info retry   <!--[if lt IE 9]>
+339 info retry   <script>(new Image).src="https://nexus.aic.serpro.gov.br/favicon.ico?3.33.1-01"</script>
+339 info retry   <![endif]-->
+339 info retry   <link rel="icon" type="image/png" href="https://nexus.aic.serpro.gov.br/favicon-32x32.png?3.33.1-01" sizes="32x32">
+339 info retry   <link rel="mask-icon" href="https://nexus.aic.serpro.gov.br/safari-pinned-tab.svg?3.33.1-01" color="#5bbad5">
+339 info retry   <link rel="icon" type="image/png" href="https://nexus.aic.serpro.gov.br/favicon-16x16.png?3.33.1-01" sizes="16x16">
+339 info retry   <link rel="shortcut icon" href="https://nexus.aic.serpro.gov.br/favicon.ico?3.33.1-01">
+339 info retry   <meta name="msapplication-TileImage" content="https://nexus.aic.serpro.gov.br/mstile-144x144.png?3.33.1-01">
+339 info retry   <meta name="msapplication-TileColor" content="#00a300">
+339 info retry
+339 info retry   <link rel="stylesheet" type="text/css" href="https://nexus.aic.serpro.gov.br/static/css/nexus-content.css?3.33.1-01"/>
+339 info retry </head>
+339 info retry <body>
+339 info retry <div class="nexus-header">
+339 info retry   <a href="https://nexus.aic.serpro.gov.br">
+339 info retry     <div class="product-logo">
+339 info retry       <img src="https://nexus.aic.serpro.gov.br/static/rapture/resources/icons/x32/nexus-white.png?3.33.1-01" alt="Product logo"/>
+339 info retry     </div>
+339 info retry     <div class="product-id">
+339 info retry       <div class="product-id__line-1">
+339 info retry         <span class="product-name">Nexus Repository Manager</span>
+339 info retry       </div>
+339 info retry       <div class="product-id__line-2">
+339 info retry         <span class="product-spec">OSS 3.33.1-01</span>
+339 info retry       </div>
+339 info retry     </div>
+339 info retry   </a>
+339 info retry </div>
+339 info retry
+339 info retry <div class="nexus-body">
+339 info retry   <div class="content-header">
+339 info retry     <img src="https://nexus.aic.serpro.gov.br/static/rapture/resources/icons/x32/exclamation.png?3.33.1-01" alt="Exclamation point" aria-role="presentation"/>
+339 info retry     <span class="title">Error 500</span>
+339 info retry     <span class="description">Internal Server Error</span>
+339 info retry   </div>
+339 info retry   <div class="content-body">
+339 info retry     <div class="content-section">
+339 info retry       Server Error
+339 info retry     </div>
+339 info retry   </div>
+339 info retry </div>
+339 info retry </body>
+339 info retry </html>
+340 http 200 http://nexus.aic.serpro/repository/npm-group/glob-to-regexp
+341 verbose headers { date: 'Thu, 26 May 2022 16:19:00 GMT',
+341 verbose headers   server: 'Nexus/3.33.1-01 (OSS)',
+341 verbose headers   'x-content-type-options': 'nosniff',
+341 verbose headers   'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+341 verbose headers   'x-xss-protection': '1; mode=block',
+341 verbose headers   'last-modified': 'Tue, 03 May 2022 22:25:54 GMT',
+341 verbose headers   'content-type': 'application/json',
+341 verbose headers   connection: 'close',
+341 verbose headers   'transfer-encoding': 'chunked' }
+342 silly get cb [ 200,
+342 silly get   { date: 'Thu, 26 May 2022 16:19:00 GMT',
+342 silly get     server: 'Nexus/3.33.1-01 (OSS)',
+342 silly get     'x-content-type-options': 'nosniff',
+342 silly get     'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+342 silly get     'x-xss-protection': '1; mode=block',
+342 silly get     'last-modified': 'Tue, 03 May 2022 22:25:54 GMT',
+342 silly get     'content-type': 'application/json',
+342 silly get     connection: 'close',
+342 silly get     'transfer-encoding': 'chunked' } ]
+343 verbose get saving glob-to-regexp to /home/76327698468/.npm/nexus.aic.serpro/repository/npm-group/glob-to-regexp/.cache.json
+344 silly resolveWithNewModule glob-to-regexp@0.4.1 checking installable status
+345 silly cache add args [ 'glob-to-regexp@^0.4.1', null ]
+346 verbose cache add spec glob-to-regexp@^0.4.1
+347 silly cache add parsed spec Result {
+347 silly cache add   raw: 'glob-to-regexp@^0.4.1',
+347 silly cache add   scope: null,
+347 silly cache add   name: 'glob-to-regexp',
+347 silly cache add   rawSpec: '^0.4.1',
+347 silly cache add   spec: '>=0.4.1 <0.5.0',
+347 silly cache add   type: 'range' }
+348 silly addNamed glob-to-regexp@>=0.4.1 <0.5.0
+349 verbose addNamed ">=0.4.1 <0.5.0" is a valid semver range for glob-to-regexp
+350 silly addNameRange { name: 'glob-to-regexp',
+350 silly addNameRange   range: '>=0.4.1 <0.5.0',
+350 silly addNameRange   hasData: false }
+351 silly mapToRegistry name glob-to-regexp
+352 silly mapToRegistry using default registry
+353 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+354 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/glob-to-regexp
+355 verbose addNameRange registry:http://nexus.aic.serpro/repository/npm-group/glob-to-regexp not in flight; fetching
+356 verbose get http://nexus.aic.serpro/repository/npm-group/glob-to-regexp not expired, no request
+357 silly addNameRange number 2 { name: 'glob-to-regexp',
+357 silly addNameRange   range: '>=0.4.1 <0.5.0',
+357 silly addNameRange   hasData: true }
+358 silly addNameRange versions [ 'glob-to-regexp',
+358 silly addNameRange   [ '0.4.0',
+358 silly addNameRange     '0.4.1',
+358 silly addNameRange     '0.0.2',
+358 silly addNameRange     '0.2.0',
+358 silly addNameRange     '0.3.0',
+358 silly addNameRange     '0.0.0',
+358 silly addNameRange     '0.0.1',
+358 silly addNameRange     '0.1.0' ] ]
+359 silly addNamed glob-to-regexp@0.4.1
+360 verbose addNamed "0.4.1" is a plain semver version for glob-to-regexp
+361 silly mapToRegistry name glob-to-regexp
+362 silly mapToRegistry using default registry
+363 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+364 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/glob-to-regexp
+365 verbose addRemoteTarball https://nexus.aic.serpro.gov.br/repository/npm-group/glob-to-regexp/-/glob-to-regexp-0.4.1.tgz not in flight; adding
+366 verbose addRemoteTarball [ 'https://nexus.aic.serpro.gov.br/repository/npm-group/glob-to-regexp/-/glob-to-regexp-0.4.1.tgz',
+366 verbose addRemoteTarball   'c75297087c851b9a578bd217dd59a92f59fe546e' ]
+367 info retry fetch attempt 1 at 13:22:18
+368 info attempt registry request try #1 at 13:22:18
+369 http fetch GET https://nexus.aic.serpro.gov.br/repository/npm-group/glob-to-regexp/-/glob-to-regexp-0.4.1.tgz
+370 http 500 http://nexus.aic.serpro/repository/npm-group/@webassemblyjs%2fwasm-parser
+371 verbose bad json <!DOCTYPE html>
+371 verbose bad json <html lang="en">
+371 verbose bad json <head>
+371 verbose bad json   <title>500 - Nexus Repository Manager</title>
+371 verbose bad json   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+371 verbose bad json
+371 verbose bad json
+371 verbose bad json   <!--[if lt IE 9]>
+371 verbose bad json   <script>(new Image).src="https://nexus.aic.serpro.gov.br/favicon.ico?3.33.1-01"</script>
+371 verbose bad json   <![endif]-->
+371 verbose bad json   <link rel="icon" type="image/png" href="https://nexus.aic.serpro.gov.br/favicon-32x32.png?3.33.1-01" sizes="32x32">
+371 verbose bad json   <link rel="mask-icon" href="https://nexus.aic.serpro.gov.br/safari-pinned-tab.svg?3.33.1-01" color="#5bbad5">
+371 verbose bad json   <link rel="icon" type="image/png" href="https://nexus.aic.serpro.gov.br/favicon-16x16.png?3.33.1-01" sizes="16x16">
+371 verbose bad json   <link rel="shortcut icon" href="https://nexus.aic.serpro.gov.br/favicon.ico?3.33.1-01">
+371 verbose bad json   <meta name="msapplication-TileImage" content="https://nexus.aic.serpro.gov.br/mstile-144x144.png?3.33.1-01">
+371 verbose bad json   <meta name="msapplication-TileColor" content="#00a300">
+371 verbose bad json
+371 verbose bad json   <link rel="stylesheet" type="text/css" href="https://nexus.aic.serpro.gov.br/static/css/nexus-content.css?3.33.1-01"/>
+371 verbose bad json </head>
+371 verbose bad json <body>
+371 verbose bad json <div class="nexus-header">
+371 verbose bad json   <a href="https://nexus.aic.serpro.gov.br">
+371 verbose bad json     <div class="product-logo">
+371 verbose bad json       <img src="https://nexus.aic.serpro.gov.br/static/rapture/resources/icons/x32/nexus-white.png?3.33.1-01" alt="Product logo"/>
+371 verbose bad json     </div>
+371 verbose bad json     <div class="product-id">
+371 verbose bad json       <div class="product-id__line-1">
+371 verbose bad json         <span class="product-name">Nexus Repository Manager</span>
+371 verbose bad json       </div>
+371 verbose bad json       <div class="product-id__line-2">
+371 verbose bad json         <span class="product-spec">OSS 3.33.1-01</span>
+371 verbose bad json       </div>
+371 verbose bad json     </div>
+371 verbose bad json   </a>
+371 verbose bad json </div>
+371 verbose bad json
+371 verbose bad json <div class="nexus-body">
+371 verbose bad json   <div class="content-header">
+371 verbose bad json     <img src="https://nexus.aic.serpro.gov.br/static/rapture/resources/icons/x32/exclamation.png?3.33.1-01" alt="Exclamation point" aria-role="presentation"/>
+371 verbose bad json     <span class="title">Error 500</span>
+371 verbose bad json     <span class="description">Internal Server Error</span>
+371 verbose bad json   </div>
+371 verbose bad json   <div class="content-body">
+371 verbose bad json     <div class="content-section">
+371 verbose bad json       Server Error
+371 verbose bad json     </div>
+371 verbose bad json   </div>
+371 verbose bad json </div>
+371 verbose bad json </body>
+371 verbose bad json </html>
+372 error registry error parsing json
+373 verbose headers { date: 'Thu, 26 May 2022 16:19:00 GMT',
+373 verbose headers   server: 'Nexus/3.33.1-01 (OSS)',
+373 verbose headers   'x-content-type-options': 'nosniff',
+373 verbose headers   'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+373 verbose headers   'x-xss-protection': '1; mode=block',
+373 verbose headers   'x-frame-options': 'DENY',
+373 verbose headers   'cache-control': 'no-cache, no-store, max-age=0, must-revalidate, post-check=0, pre-check=0',
+373 verbose headers   pragma: 'no-cache',
+373 verbose headers   expires: '0',
+373 verbose headers   'content-type': 'text/html; charset=UTF-8',
+373 verbose headers   'content-length': '2009',
+373 verbose headers   connection: 'close' }
+374 info retry will retry, error on last attempt: SyntaxError: Unexpected token < in JSON at position 1
+374 info retry
+374 info retry <!DOCTYPE html>
+374 info retry <html lang="en">
+374 info retry <head>
+374 info retry   <title>500 - Nexus Repository Manager</title>
+374 info retry   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+374 info retry
+374 info retry
+374 info retry   <!--[if lt IE 9]>
+374 info retry   <script>(new Image).src="https://nexus.aic.serpro.gov.br/favicon.ico?3.33.1-01"</script>
+374 info retry   <![endif]-->
+374 info retry   <link rel="icon" type="image/png" href="https://nexus.aic.serpro.gov.br/favicon-32x32.png?3.33.1-01" sizes="32x32">
+374 info retry   <link rel="mask-icon" href="https://nexus.aic.serpro.gov.br/safari-pinned-tab.svg?3.33.1-01" color="#5bbad5">
+374 info retry   <link rel="icon" type="image/png" href="https://nexus.aic.serpro.gov.br/favicon-16x16.png?3.33.1-01" sizes="16x16">
+374 info retry   <link rel="shortcut icon" href="https://nexus.aic.serpro.gov.br/favicon.ico?3.33.1-01">
+374 info retry   <meta name="msapplication-TileImage" content="https://nexus.aic.serpro.gov.br/mstile-144x144.png?3.33.1-01">
+374 info retry   <meta name="msapplication-TileColor" content="#00a300">
+374 info retry
+374 info retry   <link rel="stylesheet" type="text/css" href="https://nexus.aic.serpro.gov.br/static/css/nexus-content.css?3.33.1-01"/>
+374 info retry </head>
+374 info retry <body>
+374 info retry <div class="nexus-header">
+374 info retry   <a href="https://nexus.aic.serpro.gov.br">
+374 info retry     <div class="product-logo">
+374 info retry       <img src="https://nexus.aic.serpro.gov.br/static/rapture/resources/icons/x32/nexus-white.png?3.33.1-01" alt="Product logo"/>
+374 info retry     </div>
+374 info retry     <div class="product-id">
+374 info retry       <div class="product-id__line-1">
+374 info retry         <span class="product-name">Nexus Repository Manager</span>
+374 info retry       </div>
+374 info retry       <div class="product-id__line-2">
+374 info retry         <span class="product-spec">OSS 3.33.1-01</span>
+374 info retry       </div>
+374 info retry     </div>
+374 info retry   </a>
+374 info retry </div>
+374 info retry
+374 info retry <div class="nexus-body">
+374 info retry   <div class="content-header">
+374 info retry     <img src="https://nexus.aic.serpro.gov.br/static/rapture/resources/icons/x32/exclamation.png?3.33.1-01" alt="Exclamation point" aria-role="presentation"/>
+374 info retry     <span class="title">Error 500</span>
+374 info retry     <span class="description">Internal Server Error</span>
+374 info retry   </div>
+374 info retry   <div class="content-body">
+374 info retry     <div class="content-section">
+374 info retry       Server Error
+374 info retry     </div>
+374 info retry   </div>
+374 info retry </div>
+374 info retry </body>
+374 info retry </html>
+375 http 200 http://nexus.aic.serpro/repository/npm-group/json-parse-even-better-errors
+376 verbose headers { date: 'Thu, 26 May 2022 16:19:00 GMT',
+376 verbose headers   server: 'Nexus/3.33.1-01 (OSS)',
+376 verbose headers   'x-content-type-options': 'nosniff',
+376 verbose headers   'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+376 verbose headers   'x-xss-protection': '1; mode=block',
+376 verbose headers   'last-modified': 'Fri, 06 May 2022 22:26:09 GMT',
+376 verbose headers   'content-type': 'application/json',
+376 verbose headers   connection: 'close',
+376 verbose headers   'transfer-encoding': 'chunked' }
+377 silly get cb [ 200,
+377 silly get   { date: 'Thu, 26 May 2022 16:19:00 GMT',
+377 silly get     server: 'Nexus/3.33.1-01 (OSS)',
+377 silly get     'x-content-type-options': 'nosniff',
+377 silly get     'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+377 silly get     'x-xss-protection': '1; mode=block',
+377 silly get     'last-modified': 'Fri, 06 May 2022 22:26:09 GMT',
+377 silly get     'content-type': 'application/json',
+377 silly get     connection: 'close',
+377 silly get     'transfer-encoding': 'chunked' } ]
+378 verbose get saving json-parse-even-better-errors to /home/76327698468/.npm/nexus.aic.serpro/repository/npm-group/json-parse-even-better-errors/.cache.json
+379 silly resolveWithNewModule json-parse-even-better-errors@2.3.1 checking installable status
+380 silly cache add args [ 'json-parse-even-better-errors@^2.3.1', null ]
+381 verbose cache add spec json-parse-even-better-errors@^2.3.1
+382 silly cache add parsed spec Result {
+382 silly cache add   raw: 'json-parse-even-better-errors@^2.3.1',
+382 silly cache add   scope: null,
+382 silly cache add   name: 'json-parse-even-better-errors',
+382 silly cache add   rawSpec: '^2.3.1',
+382 silly cache add   spec: '>=2.3.1 <3.0.0',
+382 silly cache add   type: 'range' }
+383 silly addNamed json-parse-even-better-errors@>=2.3.1 <3.0.0
+384 verbose addNamed ">=2.3.1 <3.0.0" is a valid semver range for json-parse-even-better-errors
+385 silly addNameRange { name: 'json-parse-even-better-errors',
+385 silly addNameRange   range: '>=2.3.1 <3.0.0',
+385 silly addNameRange   hasData: false }
+386 silly mapToRegistry name json-parse-even-better-errors
+387 silly mapToRegistry using default registry
+388 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+389 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/json-parse-even-better-errors
+390 verbose addNameRange registry:http://nexus.aic.serpro/repository/npm-group/json-parse-even-better-errors not in flight; fetching
+391 verbose get http://nexus.aic.serpro/repository/npm-group/json-parse-even-better-errors not expired, no request
+392 silly addNameRange number 2 { name: 'json-parse-even-better-errors',
+392 silly addNameRange   range: '>=2.3.1 <3.0.0',
+392 silly addNameRange   hasData: true }
+393 silly addNameRange versions [ 'json-parse-even-better-errors',
+393 silly addNameRange   [ '2.0.0', '2.0.1', '2.1.0', '2.3.1', '2.2.0', '2.3.0' ] ]
+394 silly addNamed json-parse-even-better-errors@2.3.1
+395 verbose addNamed "2.3.1" is a plain semver version for json-parse-even-better-errors
+396 silly mapToRegistry name json-parse-even-better-errors
+397 silly mapToRegistry using default registry
+398 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+399 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/json-parse-even-better-errors
+400 verbose addRemoteTarball https://nexus.aic.serpro.gov.br/repository/npm-group/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz not in flight; adding
+401 verbose addRemoteTarball [ 'https://nexus.aic.serpro.gov.br/repository/npm-group/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz',
+401 verbose addRemoteTarball   '7c47805a94319928e05777405dc12e1f7a4ee02d' ]
+402 info retry fetch attempt 1 at 13:22:18
+403 info attempt registry request try #1 at 13:22:18
+404 http fetch GET https://nexus.aic.serpro.gov.br/repository/npm-group/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz
+405 http 200 http://nexus.aic.serpro/repository/npm-group/chrome-trace-event
+406 verbose headers { date: 'Thu, 26 May 2022 16:19:00 GMT',
+406 verbose headers   server: 'Nexus/3.33.1-01 (OSS)',
+406 verbose headers   'x-content-type-options': 'nosniff',
+406 verbose headers   'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+406 verbose headers   'x-xss-protection': '1; mode=block',
+406 verbose headers   'last-modified': 'Mon, 16 May 2022 09:34:17 GMT',
+406 verbose headers   'content-type': 'application/json',
+406 verbose headers   connection: 'close',
+406 verbose headers   'transfer-encoding': 'chunked' }
+407 silly get cb [ 200,
+407 silly get   { date: 'Thu, 26 May 2022 16:19:00 GMT',
+407 silly get     server: 'Nexus/3.33.1-01 (OSS)',
+407 silly get     'x-content-type-options': 'nosniff',
+407 silly get     'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+407 silly get     'x-xss-protection': '1; mode=block',
+407 silly get     'last-modified': 'Mon, 16 May 2022 09:34:17 GMT',
+407 silly get     'content-type': 'application/json',
+407 silly get     connection: 'close',
+407 silly get     'transfer-encoding': 'chunked' } ]
+408 verbose get saving chrome-trace-event to /home/76327698468/.npm/nexus.aic.serpro/repository/npm-group/chrome-trace-event/.cache.json
+409 http 304 http://nexus.aic.serpro/repository/npm-group/graceful-fs
+410 verbose headers { date: 'Thu, 26 May 2022 16:19:01 GMT',
+410 verbose headers   server: 'Nexus/3.33.1-01 (OSS)',
+410 verbose headers   'x-content-type-options': 'nosniff',
+410 verbose headers   'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+410 verbose headers   'x-xss-protection': '1; mode=block',
+410 verbose headers   connection: 'close' }
+411 silly get cb [ 304,
+411 silly get   { date: 'Thu, 26 May 2022 16:19:01 GMT',
+411 silly get     server: 'Nexus/3.33.1-01 (OSS)',
+411 silly get     'x-content-type-options': 'nosniff',
+411 silly get     'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+411 silly get     'x-xss-protection': '1; mode=block',
+411 silly get     connection: 'close' } ]
+412 verbose lastModified http://nexus.aic.serpro/repository/npm-group/graceful-fs from cache
+413 verbose get saving graceful-fs to /home/76327698468/.npm/nexus.aic.serpro/repository/npm-group/graceful-fs/.cache.json
+414 http 500 http://nexus.aic.serpro/repository/npm-group/@webassemblyjs%2fast
+415 verbose bad json <!DOCTYPE html>
+415 verbose bad json <html lang="en">
+415 verbose bad json <head>
+415 verbose bad json   <title>500 - Nexus Repository Manager</title>
+415 verbose bad json   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+415 verbose bad json
+415 verbose bad json
+415 verbose bad json   <!--[if lt IE 9]>
+415 verbose bad json   <script>(new Image).src="https://nexus.aic.serpro.gov.br/favicon.ico?3.33.1-01"</script>
+415 verbose bad json   <![endif]-->
+415 verbose bad json   <link rel="icon" type="image/png" href="https://nexus.aic.serpro.gov.br/favicon-32x32.png?3.33.1-01" sizes="32x32">
+415 verbose bad json   <link rel="mask-icon" href="https://nexus.aic.serpro.gov.br/safari-pinned-tab.svg?3.33.1-01" color="#5bbad5">
+415 verbose bad json   <link rel="icon" type="image/png" href="https://nexus.aic.serpro.gov.br/favicon-16x16.png?3.33.1-01" sizes="16x16">
+415 verbose bad json   <link rel="shortcut icon" href="https://nexus.aic.serpro.gov.br/favicon.ico?3.33.1-01">
+415 verbose bad json   <meta name="msapplication-TileImage" content="https://nexus.aic.serpro.gov.br/mstile-144x144.png?3.33.1-01">
+415 verbose bad json   <meta name="msapplication-TileColor" content="#00a300">
+415 verbose bad json
+415 verbose bad json   <link rel="stylesheet" type="text/css" href="https://nexus.aic.serpro.gov.br/static/css/nexus-content.css?3.33.1-01"/>
+415 verbose bad json </head>
+415 verbose bad json <body>
+415 verbose bad json <div class="nexus-header">
+415 verbose bad json   <a href="https://nexus.aic.serpro.gov.br">
+415 verbose bad json     <div class="product-logo">
+415 verbose bad json       <img src="https://nexus.aic.serpro.gov.br/static/rapture/resources/icons/x32/nexus-white.png?3.33.1-01" alt="Product logo"/>
+415 verbose bad json     </div>
+415 verbose bad json     <div class="product-id">
+415 verbose bad json       <div class="product-id__line-1">
+415 verbose bad json         <span class="product-name">Nexus Repository Manager</span>
+415 verbose bad json       </div>
+415 verbose bad json       <div class="product-id__line-2">
+415 verbose bad json         <span class="product-spec">OSS 3.33.1-01</span>
+415 verbose bad json       </div>
+415 verbose bad json     </div>
+415 verbose bad json   </a>
+415 verbose bad json </div>
+415 verbose bad json
+415 verbose bad json <div class="nexus-body">
+415 verbose bad json   <div class="content-header">
+415 verbose bad json     <img src="https://nexus.aic.serpro.gov.br/static/rapture/resources/icons/x32/exclamation.png?3.33.1-01" alt="Exclamation point" aria-role="presentation"/>
+415 verbose bad json     <span class="title">Error 500</span>
+415 verbose bad json     <span class="description">Internal Server Error</span>
+415 verbose bad json   </div>
+415 verbose bad json   <div class="content-body">
+415 verbose bad json     <div class="content-section">
+415 verbose bad json       Server Error
+415 verbose bad json     </div>
+415 verbose bad json   </div>
+415 verbose bad json </div>
+415 verbose bad json </body>
+415 verbose bad json </html>
+416 error registry error parsing json
+417 verbose headers { date: 'Thu, 26 May 2022 16:19:01 GMT',
+417 verbose headers   server: 'Nexus/3.33.1-01 (OSS)',
+417 verbose headers   'x-content-type-options': 'nosniff',
+417 verbose headers   'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+417 verbose headers   'x-xss-protection': '1; mode=block',
+417 verbose headers   'x-frame-options': 'DENY',
+417 verbose headers   'cache-control': 'no-cache, no-store, max-age=0, must-revalidate, post-check=0, pre-check=0',
+417 verbose headers   pragma: 'no-cache',
+417 verbose headers   expires: '0',
+417 verbose headers   'content-type': 'text/html; charset=UTF-8',
+417 verbose headers   'content-length': '2009',
+417 verbose headers   connection: 'close' }
+418 info retry will retry, error on last attempt: SyntaxError: Unexpected token < in JSON at position 1
+418 info retry
+418 info retry <!DOCTYPE html>
+418 info retry <html lang="en">
+418 info retry <head>
+418 info retry   <title>500 - Nexus Repository Manager</title>
+418 info retry   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+418 info retry
+418 info retry
+418 info retry   <!--[if lt IE 9]>
+418 info retry   <script>(new Image).src="https://nexus.aic.serpro.gov.br/favicon.ico?3.33.1-01"</script>
+418 info retry   <![endif]-->
+418 info retry   <link rel="icon" type="image/png" href="https://nexus.aic.serpro.gov.br/favicon-32x32.png?3.33.1-01" sizes="32x32">
+418 info retry   <link rel="mask-icon" href="https://nexus.aic.serpro.gov.br/safari-pinned-tab.svg?3.33.1-01" color="#5bbad5">
+418 info retry   <link rel="icon" type="image/png" href="https://nexus.aic.serpro.gov.br/favicon-16x16.png?3.33.1-01" sizes="16x16">
+418 info retry   <link rel="shortcut icon" href="https://nexus.aic.serpro.gov.br/favicon.ico?3.33.1-01">
+418 info retry   <meta name="msapplication-TileImage" content="https://nexus.aic.serpro.gov.br/mstile-144x144.png?3.33.1-01">
+418 info retry   <meta name="msapplication-TileColor" content="#00a300">
+418 info retry
+418 info retry   <link rel="stylesheet" type="text/css" href="https://nexus.aic.serpro.gov.br/static/css/nexus-content.css?3.33.1-01"/>
+418 info retry </head>
+418 info retry <body>
+418 info retry <div class="nexus-header">
+418 info retry   <a href="https://nexus.aic.serpro.gov.br">
+418 info retry     <div class="product-logo">
+418 info retry       <img src="https://nexus.aic.serpro.gov.br/static/rapture/resources/icons/x32/nexus-white.png?3.33.1-01" alt="Product logo"/>
+418 info retry     </div>
+418 info retry     <div class="product-id">
+418 info retry       <div class="product-id__line-1">
+418 info retry         <span class="product-name">Nexus Repository Manager</span>
+418 info retry       </div>
+418 info retry       <div class="product-id__line-2">
+418 info retry         <span class="product-spec">OSS 3.33.1-01</span>
+418 info retry       </div>
+418 info retry     </div>
+418 info retry   </a>
+418 info retry </div>
+418 info retry
+418 info retry <div class="nexus-body">
+418 info retry   <div class="content-header">
+418 info retry     <img src="https://nexus.aic.serpro.gov.br/static/rapture/resources/icons/x32/exclamation.png?3.33.1-01" alt="Exclamation point" aria-role="presentation"/>
+418 info retry     <span class="title">Error 500</span>
+418 info retry     <span class="description">Internal Server Error</span>
+418 info retry   </div>
+418 info retry   <div class="content-body">
+418 info retry     <div class="content-section">
+418 info retry       Server Error
+418 info retry     </div>
+418 info retry   </div>
+418 info retry </div>
+418 info retry </body>
+418 info retry </html>
+419 http 304 http://nexus.aic.serpro/repository/npm-group/terser-webpack-plugin
+420 verbose headers { date: 'Thu, 26 May 2022 16:19:01 GMT',
+420 verbose headers   server: 'Nexus/3.33.1-01 (OSS)',
+420 verbose headers   'x-content-type-options': 'nosniff',
+420 verbose headers   'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+420 verbose headers   'x-xss-protection': '1; mode=block',
+420 verbose headers   connection: 'close' }
+421 silly get cb [ 304,
+421 silly get   { date: 'Thu, 26 May 2022 16:19:01 GMT',
+421 silly get     server: 'Nexus/3.33.1-01 (OSS)',
+421 silly get     'x-content-type-options': 'nosniff',
+421 silly get     'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+421 silly get     'x-xss-protection': '1; mode=block',
+421 silly get     connection: 'close' } ]
+422 verbose lastModified http://nexus.aic.serpro/repository/npm-group/terser-webpack-plugin from cache
+423 verbose get saving terser-webpack-plugin to /home/76327698468/.npm/nexus.aic.serpro/repository/npm-group/terser-webpack-plugin/.cache.json
+424 http 500 http://nexus.aic.serpro/repository/npm-group/@webassemblyjs%2fwasm-edit
+425 verbose bad json <!DOCTYPE html>
+425 verbose bad json <html lang="en">
+425 verbose bad json <head>
+425 verbose bad json   <title>500 - Nexus Repository Manager</title>
+425 verbose bad json   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+425 verbose bad json
+425 verbose bad json
+425 verbose bad json   <!--[if lt IE 9]>
+425 verbose bad json   <script>(new Image).src="https://nexus.aic.serpro.gov.br/favicon.ico?3.33.1-01"</script>
+425 verbose bad json   <![endif]-->
+425 verbose bad json   <link rel="icon" type="image/png" href="https://nexus.aic.serpro.gov.br/favicon-32x32.png?3.33.1-01" sizes="32x32">
+425 verbose bad json   <link rel="mask-icon" href="https://nexus.aic.serpro.gov.br/safari-pinned-tab.svg?3.33.1-01" color="#5bbad5">
+425 verbose bad json   <link rel="icon" type="image/png" href="https://nexus.aic.serpro.gov.br/favicon-16x16.png?3.33.1-01" sizes="16x16">
+425 verbose bad json   <link rel="shortcut icon" href="https://nexus.aic.serpro.gov.br/favicon.ico?3.33.1-01">
+425 verbose bad json   <meta name="msapplication-TileImage" content="https://nexus.aic.serpro.gov.br/mstile-144x144.png?3.33.1-01">
+425 verbose bad json   <meta name="msapplication-TileColor" content="#00a300">
+425 verbose bad json
+425 verbose bad json   <link rel="stylesheet" type="text/css" href="https://nexus.aic.serpro.gov.br/static/css/nexus-content.css?3.33.1-01"/>
+425 verbose bad json </head>
+425 verbose bad json <body>
+425 verbose bad json <div class="nexus-header">
+425 verbose bad json   <a href="https://nexus.aic.serpro.gov.br">
+425 verbose bad json     <div class="product-logo">
+425 verbose bad json       <img src="https://nexus.aic.serpro.gov.br/static/rapture/resources/icons/x32/nexus-white.png?3.33.1-01" alt="Product logo"/>
+425 verbose bad json     </div>
+425 verbose bad json     <div class="product-id">
+425 verbose bad json       <div class="product-id__line-1">
+425 verbose bad json         <span class="product-name">Nexus Repository Manager</span>
+425 verbose bad json       </div>
+425 verbose bad json       <div class="product-id__line-2">
+425 verbose bad json         <span class="product-spec">OSS 3.33.1-01</span>
+425 verbose bad json       </div>
+425 verbose bad json     </div>
+425 verbose bad json   </a>
+425 verbose bad json </div>
+425 verbose bad json
+425 verbose bad json <div class="nexus-body">
+425 verbose bad json   <div class="content-header">
+425 verbose bad json     <img src="https://nexus.aic.serpro.gov.br/static/rapture/resources/icons/x32/exclamation.png?3.33.1-01" alt="Exclamation point" aria-role="presentation"/>
+425 verbose bad json     <span class="title">Error 500</span>
+425 verbose bad json     <span class="description">Internal Server Error</span>
+425 verbose bad json   </div>
+425 verbose bad json   <div class="content-body">
+425 verbose bad json     <div class="content-section">
+425 verbose bad json       Server Error
+425 verbose bad json     </div>
+425 verbose bad json   </div>
+425 verbose bad json </div>
+425 verbose bad json </body>
+425 verbose bad json </html>
+426 error registry error parsing json
+427 verbose headers { date: 'Thu, 26 May 2022 16:19:01 GMT',
+427 verbose headers   server: 'Nexus/3.33.1-01 (OSS)',
+427 verbose headers   'x-content-type-options': 'nosniff',
+427 verbose headers   'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+427 verbose headers   'x-xss-protection': '1; mode=block',
+427 verbose headers   'x-frame-options': 'DENY',
+427 verbose headers   'cache-control': 'no-cache, no-store, max-age=0, must-revalidate, post-check=0, pre-check=0',
+427 verbose headers   pragma: 'no-cache',
+427 verbose headers   expires: '0',
+427 verbose headers   'content-type': 'text/html; charset=UTF-8',
+427 verbose headers   'content-length': '2009',
+427 verbose headers   connection: 'close' }
+428 info retry will retry, error on last attempt: SyntaxError: Unexpected token < in JSON at position 1
+428 info retry
+428 info retry <!DOCTYPE html>
+428 info retry <html lang="en">
+428 info retry <head>
+428 info retry   <title>500 - Nexus Repository Manager</title>
+428 info retry   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+428 info retry
+428 info retry
+428 info retry   <!--[if lt IE 9]>
+428 info retry   <script>(new Image).src="https://nexus.aic.serpro.gov.br/favicon.ico?3.33.1-01"</script>
+428 info retry   <![endif]-->
+428 info retry   <link rel="icon" type="image/png" href="https://nexus.aic.serpro.gov.br/favicon-32x32.png?3.33.1-01" sizes="32x32">
+428 info retry   <link rel="mask-icon" href="https://nexus.aic.serpro.gov.br/safari-pinned-tab.svg?3.33.1-01" color="#5bbad5">
+428 info retry   <link rel="icon" type="image/png" href="https://nexus.aic.serpro.gov.br/favicon-16x16.png?3.33.1-01" sizes="16x16">
+428 info retry   <link rel="shortcut icon" href="https://nexus.aic.serpro.gov.br/favicon.ico?3.33.1-01">
+428 info retry   <meta name="msapplication-TileImage" content="https://nexus.aic.serpro.gov.br/mstile-144x144.png?3.33.1-01">
+428 info retry   <meta name="msapplication-TileColor" content="#00a300">
+428 info retry
+428 info retry   <link rel="stylesheet" type="text/css" href="https://nexus.aic.serpro.gov.br/static/css/nexus-content.css?3.33.1-01"/>
+428 info retry </head>
+428 info retry <body>
+428 info retry <div class="nexus-header">
+428 info retry   <a href="https://nexus.aic.serpro.gov.br">
+428 info retry     <div class="product-logo">
+428 info retry       <img src="https://nexus.aic.serpro.gov.br/static/rapture/resources/icons/x32/nexus-white.png?3.33.1-01" alt="Product logo"/>
+428 info retry     </div>
+428 info retry     <div class="product-id">
+428 info retry       <div class="product-id__line-1">
+428 info retry         <span class="product-name">Nexus Repository Manager</span>
+428 info retry       </div>
+428 info retry       <div class="product-id__line-2">
+428 info retry         <span class="product-spec">OSS 3.33.1-01</span>
+428 info retry       </div>
+428 info retry     </div>
+428 info retry   </a>
+428 info retry </div>
+428 info retry
+428 info retry <div class="nexus-body">
+428 info retry   <div class="content-header">
+428 info retry     <img src="https://nexus.aic.serpro.gov.br/static/rapture/resources/icons/x32/exclamation.png?3.33.1-01" alt="Exclamation point" aria-role="presentation"/>
+428 info retry     <span class="title">Error 500</span>
+428 info retry     <span class="description">Internal Server Error</span>
+428 info retry   </div>
+428 info retry   <div class="content-body">
+428 info retry     <div class="content-section">
+428 info retry       Server Error
+428 info retry     </div>
+428 info retry   </div>
+428 info retry </div>
+428 info retry </body>
+428 info retry </html>
+429 silly resolveWithNewModule chrome-trace-event@1.0.3 checking installable status
+430 silly cache add args [ 'chrome-trace-event@^1.0.2', null ]
+431 verbose cache add spec chrome-trace-event@^1.0.2
+432 silly cache add parsed spec Result {
+432 silly cache add   raw: 'chrome-trace-event@^1.0.2',
+432 silly cache add   scope: null,
+432 silly cache add   name: 'chrome-trace-event',
+432 silly cache add   rawSpec: '^1.0.2',
+432 silly cache add   spec: '>=1.0.2 <2.0.0',
+432 silly cache add   type: 'range' }
+433 silly addNamed chrome-trace-event@>=1.0.2 <2.0.0
+434 verbose addNamed ">=1.0.2 <2.0.0" is a valid semver range for chrome-trace-event
+435 silly addNameRange { name: 'chrome-trace-event',
+435 silly addNameRange   range: '>=1.0.2 <2.0.0',
+435 silly addNameRange   hasData: false }
+436 silly mapToRegistry name chrome-trace-event
+437 silly mapToRegistry using default registry
+438 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+439 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/chrome-trace-event
+440 verbose addNameRange registry:http://nexus.aic.serpro/repository/npm-group/chrome-trace-event not in flight; fetching
+441 silly resolveWithNewModule terser-webpack-plugin@5.3.1 checking installable status
+442 silly cache add args [ 'terser-webpack-plugin@^5.1.3', null ]
+443 verbose cache add spec terser-webpack-plugin@^5.1.3
+444 silly cache add parsed spec Result {
+444 silly cache add   raw: 'terser-webpack-plugin@^5.1.3',
+444 silly cache add   scope: null,
+444 silly cache add   name: 'terser-webpack-plugin',
+444 silly cache add   rawSpec: '^5.1.3',
+444 silly cache add   spec: '>=5.1.3 <6.0.0',
+444 silly cache add   type: 'range' }
+445 silly addNamed terser-webpack-plugin@>=5.1.3 <6.0.0
+446 verbose addNamed ">=5.1.3 <6.0.0" is a valid semver range for terser-webpack-plugin
+447 silly addNameRange { name: 'terser-webpack-plugin',
+447 silly addNameRange   range: '>=5.1.3 <6.0.0',
+447 silly addNameRange   hasData: false }
+448 silly mapToRegistry name terser-webpack-plugin
+449 silly mapToRegistry using default registry
+450 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+451 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/terser-webpack-plugin
+452 verbose addNameRange registry:http://nexus.aic.serpro/repository/npm-group/terser-webpack-plugin not in flight; fetching
+453 silly resolveWithNewModule graceful-fs@4.2.10 checking installable status
+454 silly cache add args [ 'graceful-fs@^4.2.9', null ]
+455 verbose cache add spec graceful-fs@^4.2.9
+456 silly cache add parsed spec Result {
+456 silly cache add   raw: 'graceful-fs@^4.2.9',
+456 silly cache add   scope: null,
+456 silly cache add   name: 'graceful-fs',
+456 silly cache add   rawSpec: '^4.2.9',
+456 silly cache add   spec: '>=4.2.9 <5.0.0',
+456 silly cache add   type: 'range' }
+457 silly addNamed graceful-fs@>=4.2.9 <5.0.0
+458 verbose addNamed ">=4.2.9 <5.0.0" is a valid semver range for graceful-fs
+459 silly addNameRange { name: 'graceful-fs', range: '>=4.2.9 <5.0.0', hasData: false }
+460 silly mapToRegistry name graceful-fs
+461 silly mapToRegistry using default registry
+462 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+463 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/graceful-fs
+464 verbose addNameRange registry:http://nexus.aic.serpro/repository/npm-group/graceful-fs not in flight; fetching
+465 verbose get http://nexus.aic.serpro/repository/npm-group/chrome-trace-event not expired, no request
+466 silly addNameRange number 2 { name: 'chrome-trace-event',
+466 silly addNameRange   range: '>=1.0.2 <2.0.0',
+466 silly addNameRange   hasData: true }
+467 silly addNameRange versions [ 'chrome-trace-event',
+467 silly addNameRange   [ '1.0.3',
+467 silly addNameRange     '0.1.3',
+467 silly addNameRange     '0.1.1',
+467 silly addNameRange     '0.1.2',
+467 silly addNameRange     '1.0.0',
+467 silly addNameRange     '1.0.1',
+467 silly addNameRange     '0.1.0',
+467 silly addNameRange     '1.0.2' ] ]
+468 silly addNamed chrome-trace-event@1.0.3
+469 verbose addNamed "1.0.3" is a plain semver version for chrome-trace-event
+470 verbose get http://nexus.aic.serpro/repository/npm-group/graceful-fs not expired, no request
+471 silly addNameRange number 2 { name: 'graceful-fs', range: '>=4.2.9 <5.0.0', hasData: true }
+472 silly addNameRange versions [ 'graceful-fs',
+472 silly addNameRange   [ '4.1.1',
+472 silly addNameRange     '4.1.2',
+472 silly addNameRange     '4.1.0',
+472 silly addNameRange     '4.1.5',
+472 silly addNameRange     '4.1.6',
+472 silly addNameRange     '4.1.3',
+472 silly addNameRange     '4.2.10',
+472 silly addNameRange     '4.1.4',
+472 silly addNameRange     '1.1.13',
+472 silly addNameRange     '4.1.15',
+472 silly addNameRange     '1.1.14',
+472 silly addNameRange     '4.1.14',
+472 silly addNameRange     '4.1.13',
+472 silly addNameRange     '4.1.12',
+472 silly addNameRange     '3.0.9',
+472 silly addNameRange     '1.1.10',
+472 silly addNameRange     '1.1.11',
+472 silly addNameRange     '1.1.12',
+472 silly addNameRange     '4.1.11',
+472 silly addNameRange     '4.1.10',
+472 silly addNameRange     '1.1.2',
+472 silly addNameRange     '4.2.8',
+472 silly addNameRange     '1.1.3',
+472 silly addNameRange     '4.2.9',
+472 silly addNameRange     '1.1.4',
+472 silly addNameRange     '4.2.6',
+472 silly addNameRange     '1.1.5',
+472 silly addNameRange     '4.2.7',
+472 silly addNameRange     '1.1.6',
+472 silly addNameRange     '1.1.7',
+472 silly addNameRange     '1.1.8',
+472 silly addNameRange     '1.1.9',
+472 silly addNameRange     '1.1.0',
+472 silly addNameRange     '1.1.1',
+472 silly addNameRange     '4.2.0',
+472 silly addNameRange     '4.2.1',
+472 silly addNameRange     '4.2.4',
+472 silly addNameRange     '4.2.5',
+472 silly addNameRange     '4.2.2',
+472 silly addNameRange     '4.2.3',
+472 silly addNameRange     '3.0.0',
+472 silly addNameRange     '3.0.5',
+472 silly addNameRange     '3.0.6',
+472 silly addNameRange     '3.0.7',
+472 silly addNameRange     '3.0.8',
+472 silly addNameRange     '3.0.1',
+472 silly addNameRange     '3.0.11',
+472 silly addNameRange     '3.0.2',
+472 silly addNameRange     '3.0.10',
+472 silly addNameRange     '3.0.3',
+472 silly addNameRange     '3.0.4',
+472 silly addNameRange     '3.0.12',
+472 silly addNameRange     '2.0.0',
+472 silly addNameRange     '2.0.1',
+472 silly addNameRange     '2.0.2',
+472 silly addNameRange     '2.0.3',
+472 silly addNameRange     '1.2.1',
+472 silly addNameRange     '4.1.9',
+472 silly addNameRange     '1.2.2',
+472 silly addNameRange     '1.2.3',
+472 silly addNameRange     '4.1.7',
+472 silly addNameRange     '4.1.8',
+472 silly addNameRange     '1.0.0',
+472 silly addNameRange     '1.0.1',
+472 silly addNameRange     '1.0.2',
+472 silly addNameRange     '1.2.0' ] ]
+473 silly addNamed graceful-fs@4.2.10
+474 verbose addNamed "4.2.10" is a plain semver version for graceful-fs
+475 verbose get http://nexus.aic.serpro/repository/npm-group/terser-webpack-plugin not expired, no request
+476 silly addNameRange number 2 { name: 'terser-webpack-plugin',
+476 silly addNameRange   range: '>=5.1.3 <6.0.0',
+476 silly addNameRange   hasData: true }
+477 silly addNameRange versions [ 'terser-webpack-plugin',
+477 silly addNameRange   [ '4.1.0',
+477 silly addNameRange     '3.1.0',
+477 silly addNameRange     '2.1.0',
+477 silly addNameRange     '2.3.5',
+477 silly addNameRange     '2.3.6',
+477 silly addNameRange     '2.3.3',
+477 silly addNameRange     '2.3.4',
+477 silly addNameRange     '2.1.3',
+477 silly addNameRange     '2.3.1',
+477 silly addNameRange     '2.3.2',
+477 silly addNameRange     '2.1.1',
+477 silly addNameRange     '2.1.2',
+477 silly addNameRange     '2.3.0',
+477 silly addNameRange     '1.3.0',
+477 silly addNameRange     '5.0.0',
+477 silly addNameRange     '5.0.1',
+477 silly addNameRange     '5.0.2',
+477 silly addNameRange     '5.2.0',
+477 silly addNameRange     '5.0.3',
+477 silly addNameRange     '5.2.1',
+477 silly addNameRange     '5.2.2',
+477 silly addNameRange     '1.1.0',
+477 silly addNameRange     '5.2.3',
+477 silly addNameRange     '5.2.4',
+477 silly addNameRange     '5.2.5',
+477 silly addNameRange     '4.2.0',
+477 silly addNameRange     '4.2.1',
+477 silly addNameRange     '4.0.0',
+477 silly addNameRange     '4.2.2',
+477 silly addNameRange     '4.2.3',
+477 silly addNameRange     '3.0.0',
+477 silly addNameRange     '2.3.7',
+477 silly addNameRange     '2.3.8',
+477 silly addNameRange     '3.0.5',
+477 silly addNameRange     '3.0.6',
+477 silly addNameRange     '3.0.7',
+477 silly addNameRange     '3.0.8',
+477 silly addNameRange     '3.0.1',
+477 silly addNameRange     '3.0.2',
+477 silly addNameRange     '3.0.3',
+477 silly addNameRange     '3.0.4',
+477 silly addNameRange     '2.0.0',
+477 silly addNameRange     '2.0.1',
+477 silly addNameRange     '2.2.2',
+477 silly addNameRange     '2.2.3',
+477 silly addNameRange     '2.2.0',
+477 silly addNameRange     '2.2.1',
+477 silly addNameRange     '1.2.1',
+477 silly addNameRange     '1.2.2',
+477 silly addNameRange     '1.4.0',
+477 silly addNameRange     '1.2.3',
+477 silly addNameRange     '1.4.1',
+477 silly addNameRange     '1.2.4',
+477 silly addNameRange     '1.4.2',
+477 silly addNameRange     '1.4.3',
+477 silly addNameRange     '1.4.4',
+477 silly addNameRange     '1.4.5',
+477 silly addNameRange     '5.1.0',
+477 silly addNameRange     '5.1.1',
+477 silly addNameRange     '5.1.2',
+477 silly addNameRange     '5.3.0',
+477 silly addNameRange     '1.0.0',
+477 silly addNameRange     '5.1.3',
+477 silly addNameRange     '5.3.1',
+477 silly addNameRange     '1.0.1',
+477 silly addNameRange     '5.1.4',
+477 silly addNameRange     '1.0.2',
+477 silly addNameRange     '1.2.0' ] ]
+478 silly addNamed terser-webpack-plugin@5.3.1
+479 verbose addNamed "5.3.1" is a plain semver version for terser-webpack-plugin
+480 http 200 http://nexus.aic.serpro/repository/npm-group/loader-runner
+481 verbose headers { date: 'Thu, 26 May 2022 16:19:00 GMT',
+481 verbose headers   server: 'Nexus/3.33.1-01 (OSS)',
+481 verbose headers   'x-content-type-options': 'nosniff',
+481 verbose headers   'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+481 verbose headers   'x-xss-protection': '1; mode=block',
+481 verbose headers   'last-modified': 'Sun, 08 May 2022 09:34:09 GMT',
+481 verbose headers   'content-type': 'application/json',
+481 verbose headers   connection: 'close',
+481 verbose headers   'transfer-encoding': 'chunked' }
+482 silly get cb [ 200,
+482 silly get   { date: 'Thu, 26 May 2022 16:19:00 GMT',
+482 silly get     server: 'Nexus/3.33.1-01 (OSS)',
+482 silly get     'x-content-type-options': 'nosniff',
+482 silly get     'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+482 silly get     'x-xss-protection': '1; mode=block',
+482 silly get     'last-modified': 'Sun, 08 May 2022 09:34:09 GMT',
+482 silly get     'content-type': 'application/json',
+482 silly get     connection: 'close',
+482 silly get     'transfer-encoding': 'chunked' } ]
+483 verbose get saving loader-runner to /home/76327698468/.npm/nexus.aic.serpro/repository/npm-group/loader-runner/.cache.json
+484 silly resolveWithNewModule loader-runner@4.3.0 checking installable status
+485 silly cache add args [ 'loader-runner@^4.2.0', null ]
+486 verbose cache add spec loader-runner@^4.2.0
+487 silly cache add parsed spec Result {
+487 silly cache add   raw: 'loader-runner@^4.2.0',
+487 silly cache add   scope: null,
+487 silly cache add   name: 'loader-runner',
+487 silly cache add   rawSpec: '^4.2.0',
+487 silly cache add   spec: '>=4.2.0 <5.0.0',
+487 silly cache add   type: 'range' }
+488 silly addNamed loader-runner@>=4.2.0 <5.0.0
+489 verbose addNamed ">=4.2.0 <5.0.0" is a valid semver range for loader-runner
+490 silly addNameRange { name: 'loader-runner',
+490 silly addNameRange   range: '>=4.2.0 <5.0.0',
+490 silly addNameRange   hasData: false }
+491 silly mapToRegistry name loader-runner
+492 silly mapToRegistry using default registry
+493 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+494 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/loader-runner
+495 verbose addNameRange registry:http://nexus.aic.serpro/repository/npm-group/loader-runner not in flight; fetching
+496 verbose get http://nexus.aic.serpro/repository/npm-group/loader-runner not expired, no request
+497 silly addNameRange number 2 { name: 'loader-runner', range: '>=4.2.0 <5.0.0', hasData: true }
+498 silly addNameRange versions [ 'loader-runner',
+498 silly addNameRange   [ '2.0.0',
+498 silly addNameRange     '2.0.1',
+498 silly addNameRange     '2.1.0',
+498 silly addNameRange     '4.2.0',
+498 silly addNameRange     '4.3.0',
+498 silly addNameRange     '4.0.0',
+498 silly addNameRange     '4.1.0',
+498 silly addNameRange     '2.3.1',
+498 silly addNameRange     '2.4.0',
+498 silly addNameRange     '2.1.1',
+498 silly addNameRange     '2.2.0',
+498 silly addNameRange     '2.3.0',
+498 silly addNameRange     '3.0.0',
+498 silly addNameRange     '3.1.0' ] ]
+499 silly addNamed loader-runner@4.3.0
+500 verbose addNamed "4.3.0" is a plain semver version for loader-runner
+501 http 200 http://nexus.aic.serpro/repository/npm-group/eslint-scope
+502 verbose headers { date: 'Thu, 26 May 2022 16:19:00 GMT',
+502 verbose headers   server: 'Nexus/3.33.1-01 (OSS)',
+502 verbose headers   'x-content-type-options': 'nosniff',
+502 verbose headers   'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+502 verbose headers   'x-xss-protection': '1; mode=block',
+502 verbose headers   'last-modified': 'Sun, 01 May 2022 17:20:47 GMT',
+502 verbose headers   'content-type': 'application/json',
+502 verbose headers   connection: 'close',
+502 verbose headers   'transfer-encoding': 'chunked' }
+503 silly get cb [ 200,
+503 silly get   { date: 'Thu, 26 May 2022 16:19:00 GMT',
+503 silly get     server: 'Nexus/3.33.1-01 (OSS)',
+503 silly get     'x-content-type-options': 'nosniff',
+503 silly get     'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+503 silly get     'x-xss-protection': '1; mode=block',
+503 silly get     'last-modified': 'Sun, 01 May 2022 17:20:47 GMT',
+503 silly get     'content-type': 'application/json',
+503 silly get     connection: 'close',
+503 silly get     'transfer-encoding': 'chunked' } ]
+504 verbose get saving eslint-scope to /home/76327698468/.npm/nexus.aic.serpro/repository/npm-group/eslint-scope/.cache.json
+505 http 200 http://nexus.aic.serpro/repository/npm-group/es-module-lexer
+506 verbose headers { date: 'Thu, 26 May 2022 16:19:00 GMT',
+506 verbose headers   server: 'Nexus/3.33.1-01 (OSS)',
+506 verbose headers   'x-content-type-options': 'nosniff',
+506 verbose headers   'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+506 verbose headers   'x-xss-protection': '1; mode=block',
+506 verbose headers   'last-modified': 'Sun, 01 May 2022 15:20:22 GMT',
+506 verbose headers   'content-type': 'application/json',
+506 verbose headers   connection: 'close',
+506 verbose headers   'transfer-encoding': 'chunked' }
+507 silly get cb [ 200,
+507 silly get   { date: 'Thu, 26 May 2022 16:19:00 GMT',
+507 silly get     server: 'Nexus/3.33.1-01 (OSS)',
+507 silly get     'x-content-type-options': 'nosniff',
+507 silly get     'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+507 silly get     'x-xss-protection': '1; mode=block',
+507 silly get     'last-modified': 'Sun, 01 May 2022 15:20:22 GMT',
+507 silly get     'content-type': 'application/json',
+507 silly get     connection: 'close',
+507 silly get     'transfer-encoding': 'chunked' } ]
+508 verbose get saving es-module-lexer to /home/76327698468/.npm/nexus.aic.serpro/repository/npm-group/es-module-lexer/.cache.json
+509 http 200 http://nexus.aic.serpro/repository/npm-group/events
+510 verbose headers { date: 'Thu, 26 May 2022 16:19:01 GMT',
+510 verbose headers   server: 'Nexus/3.33.1-01 (OSS)',
+510 verbose headers   'x-content-type-options': 'nosniff',
+510 verbose headers   'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+510 verbose headers   'x-xss-protection': '1; mode=block',
+510 verbose headers   'last-modified': 'Sun, 01 May 2022 20:11:42 GMT',
+510 verbose headers   'content-type': 'application/json',
+510 verbose headers   connection: 'close',
+510 verbose headers   'transfer-encoding': 'chunked' }
+511 silly get cb [ 200,
+511 silly get   { date: 'Thu, 26 May 2022 16:19:01 GMT',
+511 silly get     server: 'Nexus/3.33.1-01 (OSS)',
+511 silly get     'x-content-type-options': 'nosniff',
+511 silly get     'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+511 silly get     'x-xss-protection': '1; mode=block',
+511 silly get     'last-modified': 'Sun, 01 May 2022 20:11:42 GMT',
+511 silly get     'content-type': 'application/json',
+511 silly get     connection: 'close',
+511 silly get     'transfer-encoding': 'chunked' } ]
+512 verbose get saving events to /home/76327698468/.npm/nexus.aic.serpro/repository/npm-group/events/.cache.json
+513 http fetch 200 https://nexus.aic.serpro.gov.br/repository/npm-group/glob-to-regexp/-/glob-to-regexp-0.4.1.tgz
+514 silly mapToRegistry name chrome-trace-event
+515 silly mapToRegistry using default registry
+516 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+517 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/chrome-trace-event
+518 verbose addRemoteTarball https://nexus.aic.serpro.gov.br/repository/npm-group/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz not in flight; adding
+519 verbose addRemoteTarball [ 'https://nexus.aic.serpro.gov.br/repository/npm-group/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz',
+519 verbose addRemoteTarball   '1015eced4741e15d06664a957dbbf50d041e26ac' ]
+520 silly fetchAndShaCheck shasum c75297087c851b9a578bd217dd59a92f59fe546e
+521 info retry fetch attempt 1 at 13:22:19
+522 info attempt registry request try #1 at 13:22:19
+523 http fetch GET https://nexus.aic.serpro.gov.br/repository/npm-group/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz
+524 http 200 http://nexus.aic.serpro/repository/npm-group/tapable
+525 verbose headers { date: 'Thu, 26 May 2022 16:19:00 GMT',
+525 verbose headers   server: 'Nexus/3.33.1-01 (OSS)',
+525 verbose headers   'x-content-type-options': 'nosniff',
+525 verbose headers   'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+525 verbose headers   'x-xss-protection': '1; mode=block',
+525 verbose headers   'last-modified': 'Thu, 19 May 2022 11:16:28 GMT',
+525 verbose headers   'content-type': 'application/json',
+525 verbose headers   connection: 'close',
+525 verbose headers   'transfer-encoding': 'chunked' }
+526 silly get cb [ 200,
+526 silly get   { date: 'Thu, 26 May 2022 16:19:00 GMT',
+526 silly get     server: 'Nexus/3.33.1-01 (OSS)',
+526 silly get     'x-content-type-options': 'nosniff',
+526 silly get     'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+526 silly get     'x-xss-protection': '1; mode=block',
+526 silly get     'last-modified': 'Thu, 19 May 2022 11:16:28 GMT',
+526 silly get     'content-type': 'application/json',
+526 silly get     connection: 'close',
+526 silly get     'transfer-encoding': 'chunked' } ]
+527 verbose get saving tapable to /home/76327698468/.npm/nexus.aic.serpro/repository/npm-group/tapable/.cache.json
+528 silly mapToRegistry name loader-runner
+529 silly mapToRegistry using default registry
+530 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+531 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/loader-runner
+532 verbose addRemoteTarball https://nexus.aic.serpro.gov.br/repository/npm-group/loader-runner/-/loader-runner-4.3.0.tgz not in flight; adding
+533 verbose addRemoteTarball [ 'https://nexus.aic.serpro.gov.br/repository/npm-group/loader-runner/-/loader-runner-4.3.0.tgz',
+533 verbose addRemoteTarball   'c1b4a163b99f614830353b16755e7149ac2314e1' ]
+534 http 200 http://nexus.aic.serpro/repository/npm-group/schema-utils
+535 verbose headers { date: 'Thu, 26 May 2022 16:19:01 GMT',
+535 verbose headers   server: 'Nexus/3.33.1-01 (OSS)',
+535 verbose headers   'x-content-type-options': 'nosniff',
+535 verbose headers   'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+535 verbose headers   'x-xss-protection': '1; mode=block',
+535 verbose headers   'last-modified': 'Tue, 17 May 2022 09:33:54 GMT',
+535 verbose headers   'content-type': 'application/json',
+535 verbose headers   connection: 'close',
+535 verbose headers   'transfer-encoding': 'chunked' }
+536 silly get cb [ 200,
+536 silly get   { date: 'Thu, 26 May 2022 16:19:01 GMT',
+536 silly get     server: 'Nexus/3.33.1-01 (OSS)',
+536 silly get     'x-content-type-options': 'nosniff',
+536 silly get     'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+536 silly get     'x-xss-protection': '1; mode=block',
+536 silly get     'last-modified': 'Tue, 17 May 2022 09:33:54 GMT',
+536 silly get     'content-type': 'application/json',
+536 silly get     connection: 'close',
+536 silly get     'transfer-encoding': 'chunked' } ]
+537 verbose get saving schema-utils to /home/76327698468/.npm/nexus.aic.serpro/repository/npm-group/schema-utils/.cache.json
+538 silly resolveWithNewModule eslint-scope@5.1.1 checking installable status
+539 silly cache add args [ 'eslint-scope@5.1.1', null ]
+540 verbose cache add spec eslint-scope@5.1.1
+541 silly cache add parsed spec Result {
+541 silly cache add   raw: 'eslint-scope@5.1.1',
+541 silly cache add   scope: null,
+541 silly cache add   name: 'eslint-scope',
+541 silly cache add   rawSpec: '5.1.1',
+541 silly cache add   spec: '5.1.1',
+541 silly cache add   type: 'version' }
+542 silly addNamed eslint-scope@5.1.1
+543 verbose addNamed "5.1.1" is a plain semver version for eslint-scope
+544 silly mapToRegistry name eslint-scope
+545 silly mapToRegistry using default registry
+546 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+547 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/eslint-scope
+548 verbose addNameVersion registry:http://nexus.aic.serpro/repository/npm-group/eslint-scope not in flight; fetching
+549 info retry fetch attempt 1 at 13:22:19
+550 info attempt registry request try #1 at 13:22:19
+551 http fetch GET https://nexus.aic.serpro.gov.br/repository/npm-group/loader-runner/-/loader-runner-4.3.0.tgz
+552 http 200 http://nexus.aic.serpro/repository/npm-group/browserslist
+553 verbose headers { date: 'Thu, 26 May 2022 16:19:00 GMT',
+553 verbose headers   server: 'Nexus/3.33.1-01 (OSS)',
+553 verbose headers   'x-content-type-options': 'nosniff',
+553 verbose headers   'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+553 verbose headers   'x-xss-protection': '1; mode=block',
+553 verbose headers   'last-modified': 'Wed, 25 May 2022 15:20:07 GMT',
+553 verbose headers   'content-type': 'application/json',
+553 verbose headers   connection: 'close',
+553 verbose headers   'transfer-encoding': 'chunked' }
+554 silly get cb [ 200,
+554 silly get   { date: 'Thu, 26 May 2022 16:19:00 GMT',
+554 silly get     server: 'Nexus/3.33.1-01 (OSS)',
+554 silly get     'x-content-type-options': 'nosniff',
+554 silly get     'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+554 silly get     'x-xss-protection': '1; mode=block',
+554 silly get     'last-modified': 'Wed, 25 May 2022 15:20:07 GMT',
+554 silly get     'content-type': 'application/json',
+554 silly get     connection: 'close',
+554 silly get     'transfer-encoding': 'chunked' } ]
+555 verbose get saving browserslist to /home/76327698468/.npm/nexus.aic.serpro/repository/npm-group/browserslist/.cache.json
+556 silly resolveWithNewModule events@3.3.0 checking installable status
+557 silly cache add args [ 'events@^3.2.0', null ]
+558 verbose cache add spec events@^3.2.0
+559 silly cache add parsed spec Result {
+559 silly cache add   raw: 'events@^3.2.0',
+559 silly cache add   scope: null,
+559 silly cache add   name: 'events',
+559 silly cache add   rawSpec: '^3.2.0',
+559 silly cache add   spec: '>=3.2.0 <4.0.0',
+559 silly cache add   type: 'range' }
+560 silly addNamed events@>=3.2.0 <4.0.0
+561 verbose addNamed ">=3.2.0 <4.0.0" is a valid semver range for events
+562 silly addNameRange { name: 'events', range: '>=3.2.0 <4.0.0', hasData: false }
+563 silly mapToRegistry name events
+564 silly mapToRegistry using default registry
+565 silly mapToRegistry registry http://nexus.aic.serpro/repository/npm-group/
+566 silly mapToRegistry uri http://nexus.aic.serpro/repository/npm-group/events
+567 verbose addNameRange registry:http://nexus.aic.serpro/repository/npm-group/events not in flight; fetching
+568 http 200 http://nexus.aic.serpro/repository/npm-group/acorn-import-assertions
+569 verbose headers { date: 'Thu, 26 May 2022 16:19:00 GMT',
+569 verbose headers   server: 'Nexus/3.33.1-01 (OSS)',
+569 verbose headers   'x-content-type-options': 'nosniff',
+569 verbose headers   'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+569 verbose headers   'x-xss-protection': '1; mode=block',
+569 verbose headers   'last-modified': 'Mon, 11 Apr 2022 13:56:18 GMT',
+569 verbose headers   'content-type': 'application/json',
+569 verbose headers   connection: 'close',
+569 verbose headers   'transfer-encoding': 'chunked' }
+570 silly get cb [ 200,
+570 silly get   { date: 'Thu, 26 May 2022 16:19:00 GMT',
+570 silly get     server: 'Nexus/3.33.1-01 (OSS)',
+570 silly get     'x-content-type-options': 'nosniff',
+570 silly get     'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+570 silly get     'x-xss-protection': '1; mode=block',
+570 silly get     'last-modified': 'Mon, 11 Apr 2022 13:56:18 GMT',
+570 silly get     'content-type': 'application/json',
+570 silly get     connection: 'close',
+570 silly get     'transfer-encoding': 'chunked' } ]
+571 verbose get saving acorn-import-assertions to /home/76327698468/.npm/nexus.aic.serpro/repository/npm-group/acorn-import-assertions/.cache.json
+572 silly cache afterAdd graceful-fs@4.2.10
+573 verbose afterAdd /home/76327698468/.npm/graceful-fs/4.2.10/package/package.json not in flight; writing
+574 verbose stack Error: Missing required argument #1
+574 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+574 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+574 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+574 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+574 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+574 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+574 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+574 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+574 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+574 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+575 verbose cwd /home/76327698468/Documentos/Meus_Projetos/dio_projetos/ReactJS/dio_react_inicial
+576 error Linux 4.15.0-175-generic
+577 error argv "/usr/bin/node" "/usr/bin/npm" "i" "-D" "webpack" "webpack-cli"
+578 error node v8.10.0
+579 error npm  v3.5.2
+580 error code EMISSINGARG
+581 error typeerror Error: Missing required argument #1
+581 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+581 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+581 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+581 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+581 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+581 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+581 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+581 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+581 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+581 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+582 error typeerror This is an error with npm itself. Please report this error at:
+582 error typeerror     <http://github.com/npm/npm/issues>
+583 verbose exit [ 1, true ]
